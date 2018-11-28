@@ -1,4 +1,12 @@
 
+"""
+__author__      = Muhammad Usman
+__copyright__   = Copyright 2007, Private
+__date__        = 10, May 2018
+__version__     = 1.0.0
+__desc__        = Basic Implementation of python decorater
+"""
+
 def decorater(fun):
 
     def wrap(a,b):
