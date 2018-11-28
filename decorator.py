@@ -7,8 +7,9 @@ __version__     = 1.0.0
 __desc__        = Basic Implementation of python decorater
 """
 
+#main decorater function
 def decorater(fun):
-
+    #that function who will decorate a,b are the parameters that will come from the called function e.g fun
     def wrap(a,b):
 
         print("some thing happens before function decorate")
